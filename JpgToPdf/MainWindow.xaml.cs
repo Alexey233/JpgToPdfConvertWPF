@@ -47,7 +47,7 @@ namespace JpgToPdf
 
                 int a = _imageStorage[0].GetHashCode();
                 string path = a.ToString();
-                doc.Save("C:\\" + path + ".pdf");
+                doc.Save(path + ".pdf");
 
                 textBox1.Text = "Успешно сохранено";
 
