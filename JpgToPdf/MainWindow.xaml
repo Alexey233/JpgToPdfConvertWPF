@@ -8,7 +8,7 @@
         Title="JpgToPdf" Height="250" Width="300">
     <Grid Margin="0,0,0,-16">
         <Button Name="btnLoadFromFile" Margin="64,10,74,180" Click="BtnLoadFromFile_Click">Load from File</Button>
-        <TextBox x:Name="textBox1"  MaxLength="250" TextChanged="TextBox_TextChanged" Margin="64,82,74,125" FontFamily="Arial" FontSize="16"></TextBox>
+        <TextBox x:Name="textBox1"  MaxLength="250" TextWrapping = "Wrap" Margin="10,75,10,100" FontFamily="Arial" FontSize="14"></TextBox>
         <Button x:Name="Convert" Content="Convert" Click="ConvertButton_Click" Margin="112,180,112,26" />
     </Grid>
 </Window>
